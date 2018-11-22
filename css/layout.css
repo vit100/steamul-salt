@@ -1,0 +1,249 @@
+/* CSS Document */
+/* Global -------------- */
+a:link{
+	text-decoration:none;
+}
+h1, h2, p{
+	color: #616060;
+}
+h1, h2{
+	text-align: center;
+	font-weight: 300;
+    margin: 20px 0 15px 0;
+}
+h3{
+	color: #530000;
+	font-weight: 500;
+	font-size: 1.6em;
+}
+p{
+	font-size: 1.1em;
+}
+/* End of Global ----------*/
+.md, .md_l, .mld_logo, .slt_lamp{
+	text-align:center;
+}
+/* Groups */
+
+/* end of groups */
+
+/* Top Header section start */
+.hdr_top{
+	background-color: #000;
+	/*background-image:url(/images/07_hdr_bgrd.jpg);
+	background-repeat: repeat-x;
+    background-position: bottom; */
+}
+.cont_res{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+	margin-top: 20px;
+	margin-top: 15px;
+    width: 190px;
+}
+.md_img{
+	text-align: center;
+	margin-top: 10px;
+}
+.so_wd{
+	width: 25px;
+}
+.call_top{
+    font-size: 1.2em;
+    color: #e7b809;
+	font-weight:500;
+	text-align:center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.phone{
+    font-size: 1.26em;
+    display: inline-block;
+    transform: scale(1,1.5);
+    -webkit-transform: scale(1,1.5);
+    -moz-transform: scale(1,1.5);
+    -ms-transform: scale(1,1.5);
+    -o-transform: scale(1,1.5);
+	padding-top: 10px;
+}
+.call_top a:link{
+    color: #e7b809;
+}
+.call_top a:hover {
+    color: #ff6f10;
+}
+/* End of top header */
+/* Start of nav*/
+.hdr_nav{
+	background-image: url(../images/05_menu_bgrd.jpg);
+    background-repeat: repeat-x;
+    background-color: #e8a518;
+	background-position: bottom;
+}
+.navbar {
+    padding: .4rem 1rem;
+}
+.nav_menu{
+	margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0, 81, 160);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:  rgb(252, 254, 150);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+	font-size: 1.2em;
+    font-weight: 500;
+}
+/*End of nav */
+
+/* Start of hdr_image */
+.hdr_slide{
+	background-color: #540000;
+	border-bottom: solid 1px #000;
+	background-image: url(../images/07_hdr_bgrd.jpg);
+	background-repeat: repeat-x;
+	background-position: 0 -5px;
+}
+.hdr_slide_img{
+	text-align: center;
+}
+/*End of header image */
+
+/* Start of body content -----------------------------------------------------------------------*/
+.icon{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.top_icon{
+	margin-top: 25px;
+}
+/*orange back to top element*/
+.orn_top{
+	float: right;
+}
+.orn_top a:link,  .orn_top a:visited {
+    color: #e8a518;
+}
+.orn_top a:hover {
+    color: #0c4f79;
+}
+.orn_top_line{
+	border-bottom: solid 10px #e8a518;
+    color: #e8a518;
+    text-transform: uppercase;
+}
+/* --------------end or back to top ------------*/
+.hb_l, .hb_r{
+	list-style: none;
+	font-weight: 500;
+	font-size: 1.1em;
+	text-align: center;
+	color: #616060;
+}
+.bold{
+	font-weight: 600;
+	color: #E8A518;
+}
+.img_l, .squid{
+	margin-top: 50px;
+}
+.main_price{
+	max-width: 800px;
+}
+.mar_top{
+	margin-top: 55px;
+}
+.ft_bld{
+	font-weight: 400;
+}
+.ico{
+	margin-top: 40px;
+}
+/* End of Body COntent -------------------------------------------------------------------------*/
+/* Start of Footer -------------------------------------------------------- */
+.foot{
+	background-color: #540000;
+	padding: 20px 0 30px 0;
+}
+.foot p{
+	color: #FFFFFF;
+	font-size: 1em;
+}
+.foot a:link,  .foot a:visited {
+    color: #FFF6D3;
+}
+.foot a:hover {
+    color: #FFF;
+}
+.md_r{
+	text-align: center;
+}
+.ft_line{
+	border-bottom: solid 1px #fff;
+}
+.copy{
+	font-size: 0.8em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* ----------------------------------Responsive mods--------------------------------------- */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+		font-size: 1em;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+	.mld_logo{
+		text-align:left;
+	}
+	.call_top{
+		text-align:right;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.hb_l{	text-align: right;}
+	.hb_r{text-align: left;}
+	.md_l{
+		text-align: left;
+	}
+	.md_r{
+		text-align: right;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 2rem;
+		padding-left: 2rem;
+		font-size: 1.2em;
+	}
+	.container{
+		max-width: 1200px;
+	}
+}
+}
